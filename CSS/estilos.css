@@ -1,0 +1,552 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.contenedor
+{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    
+}
+
+.titulo
+{
+    color: rgb(0, 25, 109);
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 2cm;
+
+}
+
+
+.textos-header h1 {
+    font-size: 50px;
+    color: antiquewhite;
+}
+
+.textos-header h2 {
+    font-size: 30px;
+    font-weight: 300;
+    color: antiquewhite;
+}
+
+.imagensecundaria{
+    background-image: url("../IMG/secundaria.jpg");
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.imagensecundaria h2
+
+{
+    color: white;
+    background-color: rgb(107, 125, 103);
+    padding-inline: 15px;
+    font-size: 50px;
+
+}
+
+.about-home
+{
+    background-color: black;
+}
+
+
+.tercera
+{
+    background-image: url("../IMG/tercera.jpg");
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tercera h2
+{
+    color: white;
+    background-color: rgb(141, 170, 203);
+    padding-inline: 15px;
+    font-size: 30px;
+}
+
+.tercera p
+{
+    color: white;
+    background-color: rgb(141, 170, 203);
+    padding-inline: 15px;
+    font-size: 20px;
+}
+
+
+/* About us */
+
+.contenedork
+{
+    background-color: #000000;
+}
+
+.contenedork .tituloz
+{
+
+    font-size: 50px;
+    color: rgb(255, 63, 63);
+    text-align: center;
+    justify-content: center;
+    padding: 2cm;
+}
+
+.contenedor-sobre-nosotros
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 2cm;
+}
+
+
+.descripcion
+{
+    font-size: 20px;
+    justify-content: space-evenly;
+    color: white;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    margin-bottom: 2cm;
+    
+}
+
+.imagen-nosotros
+{
+    width: 48%;
+    margin-right: 2cm;
+}
+
+.sobre-nosotros .contenido.textos{
+    width: 48%;
+    color: white;
+  
+    
+}
+
+.contenido-textos h3
+{
+    margin-bottom: 60x;
+    color: rgb(255, 63, 63);
+    margin-top: 2cm;
+
+
+}
+
+.contenido-textos h3 span{
+    background: rgb(255, 63, 63);
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    padding: 2px;
+    box-shadow: 0 0 6px rgb(230, 204, 255) (0,0, 0, .5);
+    margin-right: 5px;
+}
+
+.contenido-textos p {
+    padding: 0px 0px 50px 50x;
+    font-weight: 300;
+    text-align: justify;
+    color: white;
+    margin-right: 2cm;
+}
+
+/* Portafolio-casosdeexito */
+
+.portafolio
+{
+    background: rgb(0, 0, 0);
+}
+
+.galeria-port{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagen-port
+{
+    width: 24%;
+    margin-bottom: 10px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px grey (0, 0, .5);
+    
+}
+
+.imagen-port > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.hover-galeria
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background: hsla(12, 91%, 27%, 0.404);
+    transition: transform .5s;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex: column;
+}
+
+.hover-galeria img{
+    width: 50px;
+}
+.hover-galeria p
+{
+    color: white;
+}
+
+.imagen-port:hover .hover-galeria
+{
+    transform: scale(1);
+}
+
+/* Casos de éxito */
+.imgk
+{
+   align-items: ;
+   width: 700px;
+}
+
+
+/* Metodologías */
+
+.titulome
+{
+    margin-top: 5cm;
+    color: rgb(0, 27, 199);
+    font-size: 40px;
+    text-align: center;
+}
+.cards
+{
+    padding: 5cm;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards .card{
+    background-color: #b6e8ff;
+    display: flex;
+    width: 46%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0.6) ;
+}
+
+.cards .card img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid white;
+    border-radius: 50%;
+    display: block;
+}
+
+.cards .card > .contenido-texto-card
+{
+    width: 60%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+}
+
+.cards .card > .contenido.texto.card p{
+    font-weight: 300;
+    padding top: 10px;
+  
+
+}
+
+/* Servicios */
+
+.about-services {
+    background-color: #000000;
+    padding-bottom: 30px;
+}
+
+.precio
+{
+    color: blue;
+}
+.servicio-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.titulo
+{
+    font-size: 40px;
+    color:white;
+
+}
+
+.titulocifras
+
+{
+    font-size: 30px;
+    color:  rgb(255, 255, 255);
+}
+
+.servicio-cont p
+{
+    color: white;
+}
+
+
+
+  .footer1 {
+    width: 100%;
+    display: inline-block;
+    background: rgb(0, 0, 0);
+    height: 60vh;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: underline;
+  }
+  
+  .footer-distributed {
+    background-color: #000000;
+    box-shadow: 0 1px 1px 0 #000000;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: normal 16px sans-serif;
+    padding: 45px 50px;
+  }
+  
+  .footer-distributed .footer-left p {
+    color: #8f9296;
+    font-size: 14px;
+    margin: 0;
+  }
+  /* Footer links */
+  
+  .footer-distributed p.footer-links {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0 0 10px;
+    padding: 0;
+    transition: ease .25s;
+  }
+  
+  .footer-distributed p.footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+    transition: ease .25s;
+  }
+  
+  .footer-distributed .footer-links a:before {
+    content: "·";
+    font-size: 20px;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+    padding-right: 5px;
+  }
+  
+  .footer-distributed .footer-links .link-1:before {
+    content: none;
+  }
+  
+  .footer-distributed .footer-right {
+    float: right;
+    margin-top: 6px;
+    max-width: 180px;
+  }
+  
+  .footer-distributed .footer-right a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 3px;
+    transition:all .25s;
+  }
+
+  .footer-distributed .footer-right a:hover {transform:scale(1.1); -webkit-transform:scale(1.1);}
+  
+  .footer-distributed p.footer-links a:hover{text-decoration:underline;}
+
+
+
+/* Responsive*/
+@media screen and (max-width: 900px)
+{
+    header {
+    background-position: center;
+    }
+
+    .contenedor-sobre-nosotros{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .sobre-nosotros .contenido-textos{
+    width: 90%;
+    }
+
+    .imagen-nosotros {
+    width: 90%;
+    }
+
+    .imagen-port{
+    width: 44%;
+    }
+
+    .imgk{
+        width: 90%;
+    }
+
+.titulo
+{
+    width: 380px;
+}
+
+.servicio-ind .titulocifras
+
+{
+    width: 300px;
+    border-top: 2cm;
+}
+
+ .servicio-cont 
+ {
+
+flex-direction: column;
+max-width: 100px;
+
+ }
+
+ .servicio-cont .imz {
+
+ width: 300px;
+ justify-content: center;
+ justify-items: center;
+
+    
+ }
+
+ .servicio-cont p {
+    
+    width: 9cm;
+    display: flex;
+    justify-content: center;
+    text-align: center center;
+ }
+
+.servicio-ind
+{
+    padding: 20px;
+}
+
+
+.imz
+{
+    width: 10px;
+}
+
+
+    .imagensecundaria h2
+    {
+        font-size: 20px;
+    }
+
+    .tercera h2
+    {
+        font-size: 20px;
+    }
+
+/* metodologia */
+
+
+.cards
+{
+    flex-direction: column;
+    
+}
+
+.cards .card
+{
+    width: 300%;
+    margin-top: 2cm;
+    
+}
+
+.cards .card p{
+
+width: 100%;
+}
+
+    }
+    
+   /* Media Queries */
+  
+   @media (max-width: 600px) {
+    .footer-distributed .footer-left, .footer-distributed .footer-right {
+      text-align: center;
+    }
+    .footer-distributed .footer-right {
+      float: none;
+      margin: 0 auto 20px;
+    }
+    .footer-distributed .footer-left p.footer-links {
+      line-height: 1.8;
+    }
+    
+
+
+
+  }
